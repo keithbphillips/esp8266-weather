@@ -1,4 +1,4 @@
-# esp2866-weather
+# esp8266-weather
 
 This is a project that I started when I discoved the little ESP8266 wifi capable arduino boards.  You could probably just do away with the DHT-22 humidity sensor if you want to save 10 bux.  I used it because at the time the BMP-180 didn't have a very accurage pressure sensor, that has changed with the newer BME280 chips. 
 
