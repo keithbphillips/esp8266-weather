@@ -8,6 +8,8 @@ You can download the free Splunk version which limits the amount of data you col
 
 The .ino code switches the ESP into low power mode and wakes up every five minutes to take readings.  Tweak the sleep number to adjust the interval.
 
+UPDATE ON LOW POWER SETTING:  This appears to occassionally cause DHT22 chip to fail to power up properly and the whole thing will hang after a day or so.  I guess more research is needed to figure out why that happens.  I've removed the code on mine to only do a 5 minute delay and not go into low power.  It doesn't hang up any more.
+
 I'll keep trying to improve the instructions and other stuff here as I get time.
 
 Added another Arduino code file for saving to a local Python Flask app.
